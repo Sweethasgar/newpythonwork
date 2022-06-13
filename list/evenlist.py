@@ -11,12 +11,7 @@ print(evenlst)
 print(lst.count(2))
 
 
-lst1=[1,2,3,4,5,54,32,43,45]
-lst2=[2,3,4,1,65,64,3,22,23]
 
-lst3=[]
 
-for num in lst1:
-    if num in
 
 
