@@ -24,29 +24,31 @@ mobiles = [
 #
 # samsung=[mob for mob in mobiles if mob[1]=="samsung"]
 # print(samsung)
+#
+# print(f"th total number of mobiles {len(mobiles)}")
+#
+# stk=[mob for mob in mobiles if mob[-1]==0]
+# print(stk)
+#
+# mobile_gt=[mob for mob in mobiles if mob[4] in range(20000,30001)]
+# print(mobile_gt)
+#
+# fiveg=[mob for mob in mobiles if mob[2]=="5g"]
+# print(fiveg)
+# # max_price=max([mob[4] for mob in mobiles])
 
-print(f"th total number of mobiles {len(mobiles)}")
-
-stk=[mob for mob in mobiles if mob[-1]==0]
-print(stk)
-
-mobile_gt=[mob for mob in mobiles if mob[4] in range(20000,30001)]
-print(mobile_gt)
-
-fiveg=[mob for mob in mobiles if mob[2]=="5g"]
-print(fiveg)
-# max_price=max([mob[4] for mob in mobiles])
 
 
-
-mobiles.sort(reverse=True, key=lambda mob:mob[4])
-print(mobiles)
-
-costly_mob=max(mobiles,key=lambda m:m[4])
-print(costly_mob)
-
+#
+# mobiles.sort(reverse=True, key=lambda mob:mob[4])
+# print(mobiles)
+#
+# costly_mob=max(mobiles,key=lambda m:m[4])
+# print(costly_mob)
+#
 low_cost=min(mobiles,key=lambda m:m[4])
 print(low_cost)
+#
+# mob_ten=[mob[4]==10000 for mob in mobiles]
+# print("available" if True in mob_ten else "na")
 
-mob_ten=[mob[4]==10000 for mob in mobiles]
-print("available" if True in mob_ten else "na")
