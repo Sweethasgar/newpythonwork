@@ -1,5 +1,7 @@
 
+def split(word):
+    return [char for char in word]
 
-master_word="abbcceddffggt"
-x=master_word.split()
-print(x)
+
+word='abbcceddffggt'
+print(split(word))

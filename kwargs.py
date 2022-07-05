@@ -1,3 +1,6 @@
+from io import open
+
+
 def add(*args):
     return sum(args)
 

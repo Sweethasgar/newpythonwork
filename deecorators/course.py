@@ -71,4 +71,5 @@ st_name1=student()
 st_name1.add_student(st_name="ahmed",gender="male",roll="24",batch=may1)
 
 print(st_name1.batch.course.course_name)
+print(st_name.batch.course.course_name)
 

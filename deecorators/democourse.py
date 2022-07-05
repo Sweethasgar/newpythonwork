@@ -22,7 +22,7 @@ class department:
 
 
 user=employeee(id=1,name="rahul",role="hr")
-print(employeee)
+print(user)
 
 department=department(dep_name="social",user=employeee)
 print(department)
