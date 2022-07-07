@@ -17,3 +17,4 @@ try:
     print(out)
 except Exception as e:
     print(e.__class__)
+print("hello world")
